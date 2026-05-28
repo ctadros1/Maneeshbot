@@ -70,7 +70,7 @@ async function playAudioFile(connection, audioFilePath) {
   await entersState(player, AudioPlayerStatus.Idle, PLAYBACK_TIMEOUT_MS);
 }
 
-client.once('ready', () => {
+client.once('clientReady', () => {
   console.log(`Logged in as ${client.user.tag}`);
   console.log(`Target voice channel ID: ${TARGET_VOICE_CHANNEL_ID}`);
   console.log(`Audio file path: ${AUDIO_FILE_PATH}`);
