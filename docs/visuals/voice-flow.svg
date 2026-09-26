@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 250" role="img" aria-labelledby="title desc">
+  <title id="title">Maneeshbot voice flow</title><desc id="desc">A person joins the configured voice channel, the bot plays a local audio file, then disconnects.</desc>
+  <rect width="960" height="250" rx="24" fill="#0d1321"/>
+  <g fill="#152238" stroke="#34445e" stroke-width="2"><rect x="34" y="55" width="250" height="140" rx="18"/><rect x="355" y="55" width="250" height="140" rx="18"/><rect x="676" y="55" width="250" height="140" rx="18"/></g>
+  <g fill="#7dd3fc" font-family="Arial,sans-serif" font-size="24" font-weight="700"><text x="65" y="104">01 / Join</text><text x="386" y="104">02 / Play</text><text x="707" y="104">03 / Leave</text></g>
+  <g fill="#dbeafe" font-family="Arial,sans-serif" font-size="17"><text x="65" y="140">A person enters the</text><text x="65" y="164">watched voice channel</text><text x="386" y="140">Bot plays the configured</text><text x="386" y="164">local audio file</text><text x="707" y="140">Connection is cleaned up</text><text x="707" y="164">after playback or failure</text></g>
+  <g stroke="#7dd3fc" stroke-width="3" fill="none"><path d="M298 125h42"/><path d="m331 116 10 9-10 9"/><path d="M619 125h42"/><path d="m652 116 10 9-10 9"/></g>
+</svg>
